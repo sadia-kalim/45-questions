@@ -1,0 +1,47 @@
+/*More Conditional Tests: You don’t have to limit the number of tests you create to 10.
+ If you want to try more comparisons, write more tests.
+  Have at least one True and one False result for each of the following:
+• Tests for equality and inequality with strings
+
+• Tests using the lower case function
+
+• Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+
+• Tests using "and" and "or" operators
+
+• Test whether an item is in a array
+
+• Test whether an item is not in a array*/
+
+//test of equality
+let a:number= 5;
+console.log("a==5? i predict it is true");
+console.log(a==5);
+
+// test of inequality
+let b: number= 11;
+console.log("if b !=11? i predict it is false");
+console.log(b!=11);
+
+//test of using lower case function
+
+let myname: string= "SADIA";
+let s: string=myname.toLocaleLowerCase();
+console.log("myname.tolocallowercase() , i predict it is true ");
+console.log(s);
+
+
+//test of using and ,or operators
+let mynumber: number= 25;
+console.log("mynumber<30||mynumber>11, i predict it is true");
+console.log(mynumber<30||mynumber>11);
+
+//test whether an item is in array
+ let array:number[]=[1,2,3,4,5,6];
+ let element= 6;
+ 
+ if (array.includes(element)) {
+    console.log(`${element} is in array`);
+  } else {
+    console.log(`${element} is not in array`);
+  }
